@@ -1,8 +1,8 @@
 <?php
  
-$nama = $_POST['nama_barang'];
-$harga = $_POST['harga_barang'];
-$jumlah = $_POST['jumlah'];
+$nama = $_POST['Parfum'];
+$harga = $_POST['29.000'];
+$jumlah = $_POST['10'];
  
 $hitung = $harga * $jumlah;
  
@@ -29,12 +29,12 @@ $bayar = $hitung - $diskon;
   <body>
    
     <h2>Hasil Proses Penjualan</h2>
-    Nama Barang : <?php echo $nama ?><br>
-    Harga Barang : <?php echo $harga ?><br>
-    Jumlah Beli : <?php echo $jumlah ?><br>
-    Total : <?php echo $hitung ?><br>
-    Diskon : <?php echo $diskon ?><br>
-    Bayar : <?php echo $bayar ?><br><br>
+    Nama Barang : <?php echo $Parfum ?><br>
+    Harga Barang : <?php echo $29.000 ?><br>
+    Jumlah Beli : <?php echo $10 ?><br>
+    Total : <?php echo $10 ?><br>
+    Diskon : <?php echo $20% ?><br>
+    Bayar : <?php echo $25.000 ?><br><br>
     <a href="index.php"><< Kembali</a>
   </body>
 </html>
